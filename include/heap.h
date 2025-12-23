@@ -11,7 +11,7 @@
 #include "NNS_FND_expheap.h"
 
 typedef struct HeapParam {
-    u32 size;        // maximum size of the heap
+    u32 size; // maximum size of the heap
     OSArenaId arena; // where to allocate the heap from
 } HeapParam;
 
